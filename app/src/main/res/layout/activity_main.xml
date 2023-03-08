@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="117dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:background="@color/Background_of_Item"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="12dp"
+            android:elevation="10dp">
+            <ImageView
+                android:id="@+id/roundedImageView"
+                android:layout_width="93dp"
+                android:layout_height="93dp"
+                android:src="@drawable/image"
+                android:background="@color/Background_of_Item"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="117dp"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="21dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/dm_sans_bold"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="16dp"
+                android:text="@string/job"
+                android:textColor="@color/second_black1"
+                android:textSize="12sp"
+                android:fontFamily="@font/dm_sans_medium"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="4dp"
+                    android:background="@drawable/icon_location"
+                    android:contentDescription="@string/image" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/location"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/dm_sans"
+                    android:textColor="@color/black_icon" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="end"
+                    android:text="@string/Reviews"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/dm_sans"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_marginEnd="4dp"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:gravity="end"
+                    android:text="@string/number"
+                    android:textSize="12sp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/star_4"
+                    android:contentDescription="@string/star" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="117dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="38dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:background="@drawable/shape_text"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/dm_sans"
+                android:textColor="@color/white"
+                android:text="@string/hr"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/country"
+                android:fontFamily="@font/dm_sans_medium"
+                android:textColor="@color/second_black1"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textFontWeight="1"
+                android:fontFamily="@font/dm_sans"
+                android:textColor="@color/second_black2"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

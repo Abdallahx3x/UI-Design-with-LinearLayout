@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Linear Layout</string>
+    <string name="Reviews">(150 Reviews)</string>
+    <string name="number">4.5</string>
+    <string name="name">Ahmed hassan</string>
+    <string name="job">Engineer</string>
+    <string name="image">image</string>
+    <string name="location">UK</string>
+    <string name="star">star</string>
+    <string name="hr">3 hr</string>
+    <string name="country">Russian</string>
+    <string name="date">5 Days ago</string>
+</resources>

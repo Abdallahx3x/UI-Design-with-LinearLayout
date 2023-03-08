@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="Background_of_Item">#F8F8F8</color>
+    <color name="black">#000000</color>
+    <color name="shape_color">#FF0D0D</color>
+    <color name="black_icon">#99263238</color>
+    <color name="second_black1">#DE122940</color>
+    <color name="second_black2">#61122940</color>
+
+
+</resources>
