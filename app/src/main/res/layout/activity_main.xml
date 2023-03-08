@@ -54,15 +54,16 @@
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="16dp"
+                android:fontFamily="@font/dm_sans_medium"
                 android:text="@string/job"
                 android:textColor="@color/second_black1"
-                android:textSize="12sp"
-                android:fontFamily="@font/dm_sans_medium"/>
+                android:textSize="12sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:orientation="horizontal"
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
@@ -77,10 +78,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
-                    android:text="@string/location"
-                    android:textSize="13sp"
                     android:fontFamily="@font/dm_sans"
-                    android:textColor="@color/black_icon" />
+                    android:text="@string/location"
+                    android:textColor="@color/black_icon"
+                    android:textSize="13sp" />
             </LinearLayout>
 
 
@@ -93,11 +94,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="17dp"
                     android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/dm_sans"
                     android:gravity="end"
                     android:text="@string/Reviews"
                     android:textColor="@color/black"
-                    android:textSize="12sp"
-                    android:fontFamily="@font/dm_sans"/>
+                    android:textSize="12sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -106,8 +107,8 @@
                     android:fontFamily="@font/dm_sans_medium"
                     android:gravity="end"
                     android:text="@string/number"
-                    android:textSize="12sp"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
